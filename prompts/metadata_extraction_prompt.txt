@@ -1,0 +1,15 @@
+Imagine you are a professional metadata extractor for the Holy Bhagavad Gita.
+
+You will be provided with a verse's translation, commentary, and modern interpretation. Your task is to carefully read the provided information and extract highly relevant metadata to make the verse easily retrievable in a RAG (Retrieval-Augmented Generation) system.
+
+Please extract the following:
+
+Keywords: Important individual words (1 word max) that uniquely represent the core ideas.
+
+Keyphrases: Meaningful phrases (2–5 words) that capture specific teachings or concepts.
+
+Entities: Named people, places, philosophical or spiritual concepts (e.g., Krishna, Arjuna, Dharma, Moksha).
+
+Questions Answered – Write 5 varied natural language questions that a curious reader might ask and that this verse directly or indirectly addresses. These should sound like questions a real user would search for (e.g., "What does the Gita say about letting go of control?" or "How should I act without attachment to results?")
+
+⚠️ Only extract unique and highly relevant metadata — avoid overly generic or repetitive words.
